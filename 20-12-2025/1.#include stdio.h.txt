@@ -1,0 +1,71 @@
+1.#include <stdio.h>
+int main() {
+    int n;
+    scanf("%d",&n);
+    if(n%2 == 0){
+    printf("even");
+    }
+    else{
+        printf("odd");
+    }
+
+    
+        
+    return 0;
+}
+   
+
+2.#include <stdio.h>
+int main() {
+    int n;
+    scanf("%d",&n);
+    if(n%-5 == 0){
+    printf("nagative");
+    }
+    else{
+      printf("positive");  
+    }
+
+    return 0;
+}
+
+3.
+#include <stdio.h>
+int main() {
+    int a;
+    int b;
+    printf("enter the value of a ");
+    scanf("%d",&a);
+    printf("enter the value of b ");
+    scanf("%d",&b);
+    if(a>b){
+    printf("a is greater");}
+    else if(b > a){
+    printf("b is greater");}
+    return 0;
+} 
+3.#include <stdio.h>
+int main() {
+    int a;
+    int b;
+    printf("enter the value of a ");
+    scanf("%d",&a);
+    printf("enter the value of b ");
+    scanf("%d",&b);
+    if(a>b){
+    printf("a is greater");}
+    else if(b > a){
+    printf("b is greater");}
+    return 0;
+}
+4.#include <stdio.h>
+int main() {
+    int a;
+    printf("enter the value of age ");
+    scanf("%d",&a);
+    if(a>=18){
+    printf("eligible");}
+    else if(a<=18){
+    printf("not eligible");}
+    return 0;
+}

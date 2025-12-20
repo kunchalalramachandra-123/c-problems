@@ -1,0 +1,10 @@
+5.#include <stdio.h>
+int main() {
+    int a=7;
+    int b=3;
+    int remainder;
+    remainder=a%b;
+    printf("%d",remainder);
+        
+    return 0;
+}

@@ -1,0 +1,10 @@
+3.#include <stdio.h>
+int main() {
+    int a=2;
+    int b=10;
+    int product;
+    product=a*b;
+    printf("%d",product);
+        
+    return 0;
+}

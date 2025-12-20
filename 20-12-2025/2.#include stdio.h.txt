@@ -1,0 +1,10 @@
+2.#include <stdio.h>
+int main() {
+    int a=20;
+    int b=10;
+    int difference;
+    difference=a-b;
+    printf("%d",difference);
+        
+    return 0;
+}

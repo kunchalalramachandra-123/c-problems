@@ -1,0 +1,10 @@
+4.#include <stdio.h>
+int main() {
+    int a=8;
+    int b=2;
+    int quotient;
+    quotient=a/b;
+    printf("%d",quotient);
+        
+    return 0;
+}
