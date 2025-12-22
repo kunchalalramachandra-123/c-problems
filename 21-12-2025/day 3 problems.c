@@ -1,14 +1,16 @@
 #include <stdio.h>
 int main() {
-    int N;
-    scanf("%d", &N);
-
-    if (N % 5 == 0)
-        printf("Yes");
-    else
-        printf("No");
-
+    int a;
+    int b;
+    printf("enter pass or fail");
+    scanf("%d%d",&a,&b);
+    if(a >= b){
+    printf("pass");
+    }
+    else{
+        printf("fail");
+    }
     return 0;
-}
+    }
    
 
