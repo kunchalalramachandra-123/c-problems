@@ -6,7 +6,7 @@ int main() {
     printf("enter a string");
     scanf("%s",str);
     for(i = 0;str[i] != '\0';i++){
-        str[i]=toupper(str[i]);
+        
     }
     printf("uppercase: %s",str);
 
