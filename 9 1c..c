@@ -1,13 +1,9 @@
- #include <stdio.h>
+#include <stdio.h>
 int main() {
-int n, count = 0;
-scanf("%d", &n);
-for (; n > 0; n = n / 10) {
-int digit = n % 10;
-if (digit % 2 == 0) {
-count++;
-}
-}
-printf("%d", count);
+int M, N, sum = 0;
+scanf("%d %d", &M, &N);
+for(int i = M; i <= N; i += M) {
+sum += i;
+}printf("%d", sum);
 return 0;
-}                       
+}
