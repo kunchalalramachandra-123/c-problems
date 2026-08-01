@@ -1,0 +1,16 @@
+
+*PACKEGE day8;
+import java.util.Arrays;
+public class Sequence{
+public static void main(string[] week){
+int[] pascel = {1,2,3,4,5,10};
+string digits = "987654321";
+System.out.println(Arrays.tostring(pascel));
+System.out.println(digits);
+String newDigits = digits.substring(2,8);
+String.out.println(newDigits);
+int[] extracted = Arrays.copyOfRange9(pascel,2,4);
+Arrays.stream(extracted).forEach(
+eachj->System.out.println(each)
+};
+}
