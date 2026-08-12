@@ -1,0 +1,14 @@
+package day11;
+class data{
+int[] arr=new int[2];
+public Data(){arr=new int[]{12,34,56,11,9,54};}
+}
+class Operate extends Data{
+static {System.out.println("Empty static block");}
+public Operate(){System.out.println(arr.length);}
+}
+public class MemoryCall{
+public static void main(String[] arr){
+Operate op = new Operate();
+}
+}
